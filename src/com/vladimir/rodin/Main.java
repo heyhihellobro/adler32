@@ -11,7 +11,7 @@ import java.util.zip.Adler32;
 public class Main {
 
     public static String toHex(String arg) {
-        return String.format("%040x", new BigInteger(1, arg.getBytes(/*YOUR_CHARSET?*/)));
+        return String.format("%040x", new BigInteger(1, arg.getBytes(UTF-8)));
     }
 
 
